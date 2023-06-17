@@ -1,0 +1,60 @@
+body {
+    background-image: url("bc2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Tilt Prism', cursive;
+    color: yellow;
+}
+
+h2 {
+    font-family: 'Tilt Prism', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid yellow;
+    background: grey;
+    color: black;
+    box-shadow: 1px 1px 2px whitesmoke;
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: 50px;
+    /* Tinggi tombol */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cool-button {
+    position: absolute;
+    bottom: 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: grey;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.cool-button:hover {
+    background-color: #FFD700
+}
+
+.card-content {
+    font-size: 16px;
+    color: whitesmoke;
+  }

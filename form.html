@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleform.css">
+    <title>DOM Javascript</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Pendaftaran Konser</h3>
+        </div>
+        <form action="">
+            <label for="nama">Nama Lengkap</label><br>
+            <input type="text" placeholder="Nama anda" id="nama"><br><br>
+            <label for="nik">NIK</label><br>
+            <input type="text" placeholder="NIK anda" id="nik"><br>
+            <p>Pilih hari untuk konser:</p>
+            <input type="radio" name="hari" id="Sabtu" value="Sabtu">
+            <label for="Sabtu">Sabtu</label><br>
+            <input type="radio" name="hari" id="Minggu" value="Minggu">
+            <label for="Minggu">Minggu</label><br>
+            <input type="radio" name="hari" id="Senin" value="Senin">
+            <label for="Senin">Senin</label><br>
+            <input type="radio" name="hari" id="Selasa" value="Selasa">
+            <label for="Selasa">Selasa</label><br><br>
+            <label for="Tribun">Tribun</label><br>
+            <select id="Tribun">
+                <option value="Barat">Barat</option>
+                <option value="Timur">Timur</option>
+                <option value="Utara">Utara</option>
+            </select><br><br>
+            <label for="alamat">Alamat</label><br>
+            <textarea placeholder="Tulis alamatmu disini" name="alamat" id="alamat" cols="30"
+                rows="5"></textarea><br><br>
+            <label for="tanggal">Tanggal</label><br>
+            <input type="date" id="tanggal"><br><br>
+            <button class="cool-button">Kirim</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
